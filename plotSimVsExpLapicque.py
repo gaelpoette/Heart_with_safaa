@@ -178,6 +178,9 @@ ax.grid(color="0.85")
 # fig.tight_layout()
 # fig.savefig(outputPng,dpi=300)
 
+plt.ioff()
+plt.show()
+
 
 
 
