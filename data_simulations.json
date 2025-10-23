@@ -1,0 +1,141 @@
+{
+    "circe_results": [
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.50,2.00],
+         "thresholds": [4.0,2.5,1.75,1.5,1.0,1.0],
+         "frequency" : 60,
+         "se" : 50.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.50,2.00],
+         "thresholds": [4.0,2.5,1.75,1.5,1.0,1.0],
+         "frequency" : 90,
+         "se" : 50.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.50,2.00],
+         "thresholds": [4.0,2.5,1.75,1.5,1.0,1.0],
+         "frequency" : 120,
+         "se" : 50.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [3.0,1.5,1.25,1.0,0.75,0.75,0.5],
+         "frequency" : 60,
+         "se" : 15.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [3.0,1.5,1.25,1.0,0.75,0.75,0.5],
+         "frequency" : 90,
+         "se" : 15.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [3.0,1.5,1.25,1.0,0.75,0.75,0.5],
+         "frequency" : 120,
+         "se" : 15.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00,5.0,6.0,7.0,8.0,10.0],
+         "thresholds": [2.8,1.6,1.2,0.8,0.6,0.5,0.5,0.3,0.3,0.3,0.3,0.3],
+         "frequency" : 90,
+         "se" : 15.0,
+         "device":"PSA"
+       }
+    ],
+    "ceps_results": [
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [1.80,1.20,0.80,0.7,0.7,0.6,0.3],
+         "frequency" : 90,
+         "out" : 0.5,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0,
+         "device":"PSA"
+       }
+    ],
+    "ceps_results_old": [
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.75,0.50,0.25,0.25,0.25,0.25,0.25],
+         "frequency" : 60,
+         "out" : 0.5,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.75,0.50,0.25,0.25,0.25,0.25,0.25],
+         "frequency" : 90,
+         "out" : 0.5,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.75,0.50,0.25,0.25,0.25,0.25,0.25],
+         "frequency" : 120,
+         "out" : 0.5,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.75,0.50,0.25,0.25,0.25,0.25,0.25],
+         "frequency" : 60,
+         "out" : 1.0,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.75,0.50,0.25,0.25,0.25,0.25,0.25],
+         "frequency" : 90,
+         "out" : 1.0,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.75,0.50,0.25,0.25,0.25,0.25,0.25],
+         "frequency" : 120,
+         "out" : 1.0,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0
+       },
+       {
+         "durations": [0.25,0.50,0.75,1.00,1.25,1.50,2.00],
+         "thresholds": [0.6,0.3,0.2,0.2,0.2,0.2,0.2],
+         "frequency" : 90,
+         "out" : 0.5,
+         "Am" : 2500,
+         "linear_solver_absolute_tolerance":1e-12,
+         "linear_solver_relative_tolerance":1e-12,
+         "pde_time_step":0.01,
+         "mesh_refine":1.0,
+         "device":"PSA"
+       }
+    ]
+}
